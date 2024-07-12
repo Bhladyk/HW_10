@@ -1,0 +1,44 @@
+    1  cd Git
+    2  rm ~/.bash_history
+    3  git config --global user.name "Borys"
+    4  git config --global user.email "Bhladyk@gmail.com"
+    5  git config --global --list
+    6  git clone https://github.com/Bhladyk/HW_10.git
+    7  cd HW_10
+    8  touch text_ignore.txt
+    9  echo "text_ignore.txt
+   10  .gitignore
+   11  nano .gitignore
+   12  -c
+   13  cdgit
+   14  cd git
+   15  git config --global user.name "Borys"
+   16  git config --global user.email "Bhladyk@gmail.com"
+   17  git config --global --list
+   18  git clone https://github.com/Bhladyk/HW_10.git
+   19  cd git
+   20  cd HW_10
+   21  cd Desktop
+   22  cd HW_10
+   23  touch text_ignore.txt
+   24  .gitignore
+   25  nano .gitignore
+   26  git status
+   27  git add
+   28  git add .
+   29  git commit -m "Added file text_ignore.txt and updated .gitignore"
+   30  touch main_test.txt
+   31  git add .
+   32  git commit -m "Added an empty file main_test.txt"
+   33  git branch develop
+   34  git checkout develop
+   35  touch develop_test.txt
+   36  git add .
+   37  git commit -m "Added an empty file develop_test.txt"
+   38  git status
+   39  git add .
+   40  git commit -m "Modified develop_test.txt file"
+   41  git checkout main
+   42  git merge develop
+   43  git log
+   44  history > command_list.csv
